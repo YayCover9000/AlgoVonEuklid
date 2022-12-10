@@ -20,17 +20,17 @@ public class Main {
             groessereZahl = y;
             kleinereZahl = x;
         }
-        System.out.println(groessereZahl);
+        //System.out.println(groessereZahl);
         while(rest>0) {
             rest = groessereZahl % kleinereZahl;
-            System.out.println(rest);
+           //System.out.println(rest);
             groessereZahl = kleinereZahl;
             if(rest==0) {
                 System.out.println("ggT ist: " + kleinereZahl);
                 return;
             }
             kleinereZahl=rest;
-            System.out.println(rest);
+            //System.out.println(rest);
 
 
         }
